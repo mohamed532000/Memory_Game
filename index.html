@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miemory game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+        <div class="container">
+            <div class="user-data">
+                <div class="text">Hello : <span id="username"></span></div>
+                <div class="text">Tryeing : <span id="userTryeing">0</span></div>
+            </div>
+            
+            <div class="boxes-content" id="boxes-content">
+                <div class="box" boxdata="one">
+                    <div class="back face"><img src="images/atm-machine-payments-receive-money-vector-illustration_1284-41344.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="one">
+                    <div class="back face"><img src="images/atm-machine-payments-receive-money-vector-illustration_1284-41344.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="two">
+                    <div class="back face"><img src="images/auto-repair-shop-service-workers-fixing-car-billing-customer-retro-cartoon-indoor-composition_1284-16849.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="two">
+                    <div class="back face"><img src="images/auto-repair-shop-service-workers-fixing-car-billing-customer-retro-cartoon-indoor-composition_1284-16849.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="three">
+                    <div class="back face"><img src="images/car-help-isometric-concept-with-equipment-tools-vector-illustration_1284-30006.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="three">
+                    <div class="back face"><img src="images/car-help-isometric-concept-with-equipment-tools-vector-illustration_1284-30006.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="four">
+                    <div class="back face"><img src="images/colorful-tire-service-concept_1284-37298.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="four">
+                    <div class="back face"><img src="images/colorful-tire-service-concept_1284-37298.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="five">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5476.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="five">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5476.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="six">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5477.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="six">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5477.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div> 
+                <div class="box" boxdata="seven">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5480.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="seven">
+                    <div class="back face"><img src="images/happy-engineers-day-illustration-commemorative-engineer-with-worker-tools-flat-cartoon_2175-5480.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+
+                <div class="box" boxdata="eight">
+                    <div class="back face"><img src="images/happy-labor-day-from-people-various-professions-thanks-your-hard-work-illustration_2175-4094.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="eight">
+                    <div class="back face"><img src="images/happy-labor-day-from-people-various-professions-thanks-your-hard-work-illustration_2175-4094.jpg" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+
+                <div class="box" boxdata="nine">
+                    <div class="back face"><img src="images/male-female-people-bank-office-with-counters-atm-isometric-vector-illustration_1284-16608.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="nine">
+                    <div class="back face"><img src="images/male-female-people-bank-office-with-counters-atm-isometric-vector-illustration_1284-16608.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+
+                <div class="box" boxdata="ten">
+                    <div class="back face"><img src="images/people-waiting-queue-bank-machine_74855-4458.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+                <div class="box" boxdata="ten">
+                    <div class="back face"><img src="images/people-waiting-queue-bank-machine_74855-4458.webp" alt=""></div>
+                    <div class="front face">?</div>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="start-button-div" id="start-button-div">
+        <div class="start-button" id="start-button">start Game</div>
+    </div>
+    <div class="div-sounds">
+        <audio src="correct-2-46134.mp3" id="correct"></audio>
+        <audio src="failure-drum-sound-effect-2-7184.mp3" id="wrong"></audio>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
